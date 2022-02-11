@@ -4,8 +4,8 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { GraficaComponent } from './pages/grafica/grafica.component';
-import { NofoundComponent } from './pages/nofound/nofound.component';
-import { PagesComponent } from './pages/pages/pages.component';
+import { NofoundComponent } from './nofound/nofound.component';
+import { PagesComponent } from './pages/pages.component';
 import { ProgressComponent } from './pages/progress/progress.component';
 
 const routes: Routes = [
@@ -26,7 +26,6 @@ const routes: Routes = [
 ]
 
 @NgModule({
-  declarations: [],
   imports: [
     RouterModule.forRoot( routes )
   ],
